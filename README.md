@@ -27,6 +27,7 @@ where x represents the values in the original image and $v_\mathrm{min}$ and $v_
 
 ### Scale Parameters
 ($v_\mathrm{min}$ and $v_\mathrm{max}$). Scale parameters can be determined by many methods, including zscale, minmax, and manual setting.
+
 <img src="./figs/scale_parameters.jpg" alt="example1" width=500/>
 
 ### Stretch.
