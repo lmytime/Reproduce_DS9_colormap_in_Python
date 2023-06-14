@@ -17,7 +17,7 @@ from astromy_ds9 import ds9_norm
 
 import astropy
 import matplotlib.pyplot as plt
-data = astropy.io.fits.getdata('https://github.com/glue-viz/ds9norm/raw/master/m51.fits')
+data = astropy.io.fits.getdata('https://github.com/lmytime/Reproduce_DS9_colormap_in_Python/raw/main/doc/data/m51.fits')
 
 norm = ds9_norm(vmin=3053.38, vmax=13513.9, bias=0.581921, contrast=0.890152, stretch='sqrt')
 plt.imshow(data, norm=norm, cmap='gray', origin='lower', interpolation='None')
