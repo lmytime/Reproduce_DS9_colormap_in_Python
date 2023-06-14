@@ -7,12 +7,12 @@ Here we take notes about how to reproduce the colormap of DS9 in Python, supposi
 
 ## Installation
 ```sh
-pip install ds9_norm
+pip install astromy_ds9
 ```
 
 ## Usage
 ```python
-from astromy_ds9 import ds9norm
+from astromy_ds9 import ds9_norm
 
 
 import astropy
@@ -28,7 +28,7 @@ There are 5 input parameters for `ds9_norm` function.
 - `bias` and `contrast`: you can find the values in `Color` -> `Color Parameters`
 - `stretch`: you can find it in `Scale` -> see which one is marked with a check mark. Allowed values are 'linear' | 'log' | 'sqrt' | 'power' | 'squared' | 'asinh' | 'sinh'.
 
-<img src="./doc/figs/help.png" alt="help" width=600/>
+<img src="https://github.com/lmytime/Reproduce_DS9_colormap_in_Python/blob/main/doc/figs/help.png?raw=true" alt="help"/>
 
 
 **Check example code in [test](https://nbviewer.org/github/lmytime/Reproduce_DS9_colormap_in_Python/blob/main/doc/test.ipynb) and [example](https://nbviewer.org/github/lmytime/Reproduce_DS9_colormap_in_Python/blob/main/doc/example.ipynb).**
