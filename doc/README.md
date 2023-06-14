@@ -1,4 +1,5 @@
 
+# Reproduce SAOImageDS9 colormap in Python Matplotlib
 ## Abstract
 [SAOImageDS9](https://sites.google.com/cfa.harvard.edu/saoimageds9) is an image display and visualization tool for astronomical data, which can be used for fast image processing and inspection. In DS9, we can drag the mouse on the image viewer to manipulate the colormap and then visualize data effectively and quickly. Unlike the DS9, color normalization and stretch in Python should be set manually.
 
